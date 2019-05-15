@@ -2,23 +2,28 @@ body{
     background-image: linear-gradient( to top,#FF416C,#FF4B2B);
 }
 
-.carousel-inner{
-    margin: auto;
-    width: auto;
-    height: 225px;   
+.carousel-inner img{
+    width: 100%;
+    height: auto;   
 }
 
-.navbar-brand{
+.navbar .navbar-brand {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
+    color: pink
     
 }
 
-a:link{
-    color: white;
+.navbar .navbar-brand:hover{
+    color:fuchsia;
 }
 
-a:hover{
+.navbar-nav a:link{
+    color:pink;
+}
+
+.navbar-nav a:hover{
     color: #FF416C;
+    text-decoration: none;
 }
 
