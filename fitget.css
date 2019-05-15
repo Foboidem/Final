@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient( to top,#FF416C,#FF4B2B);
+}
+
+.carousel-inner{
+    margin: auto;
+    width: auto;
+    height: 225px;   
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    
+}
+
+a:link{
+    color: white;
+}
+
+a:hover{
+    color: #FF416C;
+}
+
