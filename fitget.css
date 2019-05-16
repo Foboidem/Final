@@ -2,20 +2,31 @@ body{
     background-image: linear-gradient( to top,#FF416C,#FF4B2B);
 }
 
+.jumbotron{
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    background-image:
+    background-repeat: no-repeat;
+      background-size: cover;
+   
+}
+
 .carousel-inner img{
     width: 100%;
     height: auto;   
 }
 
 .navbar .navbar-brand {
-    font-family: 'Pacifico', cursive;
+   font-family: 'Pacifico', cursive;
     font-size: 40px;
     color: pink
     
 }
 
 .navbar .navbar-brand:hover{
-    color:fuchsia;
+    color:#f7797d;
 }
 
 .navbar-nav a:link{
@@ -27,3 +38,13 @@ body{
     text-decoration: none;
 }
 
+.carousel-caption{
+    color: #FF416C;
+    text-decoration: none; 
+}
+
+.carousel-caption p{
+    text-align: center;
+    color: rgb(233, 22, 92);
+    text-decoration: underline; 
+}
