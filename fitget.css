@@ -13,8 +13,16 @@ body{
 }
 
 .carousel-inner img{
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 24px;
     width: 100%;
     height: auto;   
+}
+
+p{
+    padding-top: 60px;
 }
 
 .navbar .navbar-brand {
@@ -49,6 +57,19 @@ body{
 }
 
 #Local{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#brw  
+
+{
+width: 50px;
+height: 60px;  
+}
+
+#best
+{
     text-align: center;
     font-family: 'Oswald', sans-serif;
 }
