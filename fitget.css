@@ -89,6 +89,7 @@ height: 60px;
     backface-visibility: hidden;
 }
 
+
 .middle{
     transition: .5s ease;
     opacity: 0;
@@ -132,6 +133,25 @@ height: 60px;
     backface-visibility: hidden;
 }
 
+#local2{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-left: 242px;
+}
+#local3{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    padding-right: 40px;
+}
+
 .middle{
     transition: .5s ease;
     opacity: 0;
@@ -144,6 +164,14 @@ height: 60px;
 }
 
 .container:hover #local1 {
+    opacity: 0.3;
+}
+
+.container:hover #local2 {
+    opacity: 0.3;
+}
+
+.container:hover #local3 {
     opacity: 0.3;
 }
 
