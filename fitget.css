@@ -56,9 +56,10 @@ p{
     text-decoration: underline; 
 }
 
-#Local{
+#Localh1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    text-decoration-style: dotted;
 }
 
 #brw  
@@ -131,6 +132,7 @@ height: 60px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin: 10px;
 }
 
 #local2{
@@ -140,16 +142,18 @@ height: 60px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    padding-left: 242px;
+    padding-left: 60px;
+    margin: 60px;
 }
 #local3{
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 250px;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    padding-right: 40px;
+    padding-right: 80%;
+
 }
 
 .middle{
