@@ -2,6 +2,10 @@ body{
     background-image: linear-gradient( to top,#FF416C,#FF4B2B);
 }
 
+.table{
+    color: black
+}
+
 .jumbotron{
     font-family: 'Pacifico', cursive;
     font-size: 40px;
