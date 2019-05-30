@@ -8,6 +8,10 @@ p{
   border: 20px;
 }
 
+.carousel-item img{
+  width: 100%;
+}
+
 table,tr,td  
 {
     border: 6px solid silver;
